@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <link href="https://icons8.com/icon/V6HShIzw21x7/javascript">
+  </head>
+  <body>
+    <div class="layout-wrapper">
+      <div class="header-wrapper">
+        <div class="header-container">
+          {% include logo.html %}
+          {% include navigation.html %}
+        </div>
+      </div>
+      <div class="homepage-wrapper">
+          {{content}}
+      </div>
+      <div class="footer-wrapper">
+          <div class="footer-links">
+              <a href="/blog.html" class="footer-link">blog ·</a>
+              <a href="/about.html" class="footer-link">about ·</a>
+              <a href="/contact.html"class="footer-link">contact </a>
+          </div>
+          <div class="footer-cp">
+            © 2020 · Thanos Masouras · All rights reserved
+          </div>
+      </div>
+    </div>
+
+  </body>
+</html>
