@@ -18,11 +18,11 @@ when ripe.
     
 {% endhighlight %}
 
+cod<div class="code-block">
 
     {% highlight ruby %}
-
         def foo
         puts 'foo'
         end
-
     {% endhighlight %}
+</div>
